@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-do List</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/todolist.css">
+  <script src="/vendor.js"></script>
+</head>
+<body>
+  <div id="searchContainer">
+    <input id="inputSearch" type="text" placeholder="Search notes..">
+  </div>
+  <input id="input" type="text" placeholder="Take a note...">
+  
+  <ul id="list">
+    <!-- <li>hi31...</li>
+    <li>
+        <div>hi</div>
+        <div class="date">31...</div>
+    </li> -->
+  </ul>
+  
+  <button id="clearBut" class="buttons">Clear me</button>
+  
+  <button id="sortBut" class="buttons">Sort me</button>
+  
+  <select id="colorBut" class="buttons">
+    <option value="itemColorDefault">Select your color..</option>
+    <option value="itemColorMaroon">Maroon</option>
+    <option value="itemColorPink">Pink</option>
+    <option value="itemColorGreen">Green</option>
+  </select>
+  
+  <div id="copyright">
+    &copy Brought to you by <img src="http://pixelartmaker.com/art/9c0e6d1f15af4d8.png" id="copyrightImg" alt="">
+  </div>
+  
+  <script src="/todolist.js"></script>
+  <script>require('todolist/TodoList');</script>
+
+</body>
